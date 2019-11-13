@@ -4,9 +4,10 @@ import './App.css';
 
 function App() {
   const [members, setMembers]= useState({
-    members: "",
+    name: "",
     email:"",
-    role:""
+    role:"",
+    listofPeople:[]
   });
 
   const FormChange = e => {
